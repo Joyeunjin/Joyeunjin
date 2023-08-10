@@ -1,0 +1,150 @@
+.top-container {
+    background-color: #DEFCF9;
+}
+
+.cloud-1 {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.title-text {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 5.5rem;
+    padding-top: 160px;
+    color: #3C84AB;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: #3C84AB;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color:#3C84AB;
+}
+
+.ux {
+    text-decoration: underline;
+}
+
+.cloud-2 {
+    margin-left: 250px;
+    margin-bottom: 250px;
+}
+
+hr {
+    display: block;
+    border: dotted #3C84AB 6px;
+    width: 6%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.cat {
+    height: 250px;
+    width: 250px;
+}
+
+.freediving {
+    height: 250px;
+    width: 250px;
+}
+
+.design {
+    line-height: 2rem;
+    text-align: left;
+}
+
+.contact-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+ .btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+ .footer-container{
+    background-color: #3C84AB;
+    text-align: center;
+ }
+ 
+
+ .copyright {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin : 30px 15px;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
